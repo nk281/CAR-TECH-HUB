@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Tech Hub - Latest Automotive Technology & New Models</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Car Tech Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="new-models.html">New Models</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tech.html">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="compare.html">Compare</a></li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uploadModal">Upload Content</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center py-5">
+            <h1 class="display-4 fw-bold text-white">Discover the Future of Automotive Technology</h1>
+            <p class="lead text-white">Explore the latest car models, cutting-edge tech, and in-depth reviews</p>
+            <div class="search-bar mt-4">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search car models or technologies...">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Content -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="mb-4">Featured Car Technologies</h2>
+                <div class="card mb-4">
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbmwindia.co.in%2Foffers%2Ftestdrive%2Fi7%2F&psig=AOvVaw1jlSN45C4qYK8gGbgCsMNU&ust=1746504179853000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjurZy5i40DFQAAAAAdAAAAABAE" class="card-img-top" alt="EV Technology">
+                    <div class="card-body">
+                        <h5 class="card-title">The Future of Electric Vehicles</h5>
+                        <p class="card-text">Explore the latest advancements in battery technology, charging infrastructure, and performance EVs hitting the market in 2023.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2 class="mb-4">New Releases</h2>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">2024 Tesla Model S Plaid</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">0-60mph in 1.99 seconds with revolutionary yoke steering.</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">BMW i7 Electric Sedan</h5>
+                            <small>1 week ago</small>
+                        </div>
+                        <p class="mb-1">Luxury meets sustainability with 31-inch theater screen.</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Ford F-150 Lightning Pro</h5>
+                            <small>2 weeks ago</small>
+                        </div>
+                        <p class="mb-1">Commercial version of the electric pickup with 320 miles range.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Categories -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Explore Car Technologies</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card tech-card h-100">
+                        <img src="https://via.placeholder.com/300x200?text=Electric" class="card-img-top" alt="Electric">
+                        <div class="card-body">
+                            <h5 class="card-title">Electric Vehicles</h5>
+                            <p class="card-text">Battery tech, charging solutions, and performance EVs.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Technologies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card tech-card h-100">
+                        <img src="https://via.placeholder.com/300x200?text=Autonomous" class="card-img-top" alt="Autonomous">
+                        <div class="card-body">
+                            <h5 class="card-title">Autonomous Driving</h5>
+                            <p class="card-text">Self-driving systems, sensors, and AI technology.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Technologies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card tech-card h-100">
+                        <img src="https://via.placeholder.com/300x200?text=Connectivity" class="card-img-top" alt="Connectivity">
+                        <div class="card-body">
+                            <h5 class="card-title">Vehicle Connectivity</h5>
+                            <p class="card-text">5G, V2X, infotainment and smart car features.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Technologies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card tech-card h-100">
+                        <img src="https://via.placeholder.com/300x200?text=Safety" class="card-img-top" alt="Safety">
+                        <div class="card-body">
+                            <h5 class="card-title">Safety Systems</h5>
+                            <p class="card-text">ADAS, collision avoidance, and protective systems.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Technologies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Modal -->
+    <div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="uploadModalLabel">Upload New Content</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="uploadForm">
+                        <div class="mb-3">
+                            <label for="contentType" class="form-label">Content Type</label>
+                            <select class="form-select" id="contentType">
+                                <option value="car-model">New Car Model</option>
+                                <option value="tech-article">Technology Article</option>
+                                <option value="presentation">Technology Presentation</option>
+                                <option value="review">Car Review</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contentTitle" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="contentTitle" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contentDescription" class="form-label">Description</label>
+                            <textarea class="form-control" id="contentDescription" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contentImages" class="form-label">Upload Images</label>
+                            <input class="form-control" type="file" id="contentImages" multiple accept="image/*">
+                            <div class="form-text">Upload high-quality images of the vehicle or technology</div>
+                        </div>
+                        <div class="mb-3" id="presentationUpload">
+                            <label for="contentPresentation" class="form-label">Upload Presentation</label>
+                            <input class="form-control" type="file" id="contentPresentation" accept=".pdf,.ppt,.pptx">
+                            <div class="form-text">PDF or PowerPoint files only</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contentTags" class="form-label">Tags</label>
+                            <input type="text" class="form-control" id="contentTags" placeholder="e.g., electric, autonomous, safety">
+                            <div class="form-text">Separate tags with commas</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="contentOriginal">
+                            <label class="form-check-label" for="contentOriginal">I confirm this is original content</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" form="uploadForm" class="btn btn-primary">Submit Content</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Car Tech Hub</h5>
+                    <p>Your premier destination for automotive technology news, reviews, and specifications.</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Explore</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">New Models</a></li>
+                        <li><a href="#" class="text-white">Technology</a></li>
+                        <li><a href="#" class="text-white">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Glossary</a></li>
+                        <li><a href="#" class="text-white">Comparisons</a></li>
+                        <li><a href="#" class="text-white">Buying Guides</a></li>
+                        <li><a href="#" class="text-white">Industry News</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Subscribe</h5>
+                    <p>Get the latest car tech updates delivered to your inbox.</p>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="email" placeholder="Your email">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Car Tech Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
